@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git url-auto-delete-shortener-bot /Eva
+  git https://github.com/ARKgam/url-auto-delete-shortener-bot/tree/main /Eva
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Eva
